@@ -13,6 +13,8 @@ body{
 
 footer{
     background-color: aqua;
+    margin-top: 20px;
+    padding: 0;
 }
 
 h2{
@@ -75,11 +77,6 @@ h2{
     padding: 5px;
 }
 
-.img_card{
-    width: 200px;
-    height: 300px;
-}
-
 .promos_section{
     align-items: center;
 }
@@ -99,6 +96,15 @@ h2{
     }
 }
 
+.nosotros{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 1100px)  {
+    .nosotros{
+        flex-direction: row;
+    }
+}
 
 .historia{
     text-align: justify;
@@ -127,4 +133,59 @@ h2{
 .social_media{
     width: 40px;
     height: 40px;
+}
+
+.container-labels{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.container-labels label{
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+.acordion_main{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .acordion_main{
+        flex-direction: row;
+    }
+}
+
+.selec_componentes {
+    background-color: #f1f1f1;
+}
+
+.accordion-body {
+    background-color: #d1d1d1;
+}
+
+/* ocultar los radio */
+#amd, #intel, #ati, #nvidia{
+    display: none;
+}
+
+.amd, .intel, .ati, .nvidia{
+    display: none;
+}
+
+#amd:checked ~ .padre-cards .amd{
+    display: flex;
+}
+
+#intel:checked ~ .padre-cards .intel{
+    display: flex;
+}
+
+#ati:checked ~ .padre-cards .ati{
+    display: flex;
+}
+
+#nvidia:checked ~ .padre-cards .nvidia{
+    display: flex;
 }
