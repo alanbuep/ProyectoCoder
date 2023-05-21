@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+}
+
+body{
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+footer{
+    background-color: aqua;
+}
+
+h2{
+    padding-top: 10px;
+}
+
+.marcas_header{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .marcas_header{
+        background-color: black;
+        gap: 40px;
+        height: 45px;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+.caja_marcas_header{
+    height: 45px;
+    width: 45px;
+    margin: 0;
+    padding: 0;
+}
+.caja_marcas_header img{
+    max-width: 100%;
+}
+
+.logo_bien_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .marcas_header{
+        background-color: black;
+        gap: 40px;
+        height: 45px;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.img_card{
+    width: 200px;
+    height: 300px;
+}
+
+.promos_section{
+    align-items: center;
+}
+
+.video-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+}
+
+@media (min-width: 768px)  {
+    .video-container{
+        flex-direction: row;
+    }
+}
+
+
+.historia{
+    text-align: justify;
+    margin: 0;
+    padding: 10px 50px 20px 50px;
+    color: rgb(100, 104, 101);
+}
+
+.map{
+    padding: 20px 20px 20px 20px;
+    min-height: 100px;
+}
+
+.contacto{
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
+
+.wapp{
+    width: 50px;
+    height: 50px;
+
+}
+
+.social_media{
+    width: 40px;
+    height: 40px;
+}
