@@ -1,0 +1,54 @@
+.container-labels{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+
+    label{
+    cursor: pointer;
+    padding: 8px 15px;
+    }
+}
+.acordion_main{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .acordion_main{
+        flex-direction: row;
+    }
+}
+
+.selec_componentes {
+    background-color: #474747;
+}
+
+.accordion-body{
+    background-color: #d1d1d1;
+}
+
+
+/* ocultar los radio */
+#amd, #intel, #ati, #nvidia{
+    display: none;
+}
+
+.amd, .intel, .ati, .nvidia{
+    display: none;
+}
+
+#amd:checked ~ .padre-cards .amd{
+    display: flex;
+}
+
+#intel:checked ~ .padre-cards .intel{
+    display: flex;
+}
+
+#ati:checked ~ .padre-cards .ati{
+    display: flex;
+}
+
+#nvidia:checked ~ .padre-cards .nvidia{
+    display: flex;
+}

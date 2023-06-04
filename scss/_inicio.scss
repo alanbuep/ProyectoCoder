@@ -1,0 +1,18 @@
+.promos_section{
+    align-items: center;
+}
+
+.video-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+}
+
+@media (min-width: 768px)  {
+    .video-container{
+        flex-direction: row;
+    }
+}

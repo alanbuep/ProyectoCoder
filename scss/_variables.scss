@@ -1,0 +1,8 @@
+// Tamaño resoluciones
+$tablet: 768px;
+$desktop: 1100px;
+
+@mixin medidas($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}

@@ -1,0 +1,344 @@
+.promos_section {
+  align-items: center;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .video-container {
+    flex-direction: row;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #01FFE1;
+  background: linear-gradient(270deg, #01FFE1, #1501FF);
+}
+
+body {
+  font-family: "Bruno Ace SC", cursive;
+  background-color: #474747;
+}
+
+footer {
+  background: #01FFE1;
+  background: linear-gradient(270deg, #01FFE1, #1501FF);
+  margin-top: 20px;
+  padding: 0;
+}
+
+.marcas_header {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .marcas_header {
+    background-color: black;
+    gap: 40px;
+    height: 45px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+}
+.caja_marcas_header {
+  height: 45px;
+  width: 45px;
+  margin: 0;
+  padding: 0;
+}
+.caja_marcas_header img {
+  max-width: 100%;
+}
+
+.logo_bien_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .marcas_header {
+    background-color: black;
+    gap: 40px;
+    height: 45px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+}
+.logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.nav-link,
+.nav-link.active,
+.navbar-nav, .nav-link.active, .navbar-brand {
+  color: black;
+}
+.nav-link:hover,
+.nav-link.active:hover,
+.navbar-nav:hover, .nav-link.active:hover, .navbar-brand:hover {
+  color: gray;
+}
+
+.card {
+  transition: transform 1s;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  z-index: 1;
+}
+
+.contacto {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+}
+
+.wapp {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.social_media {
+  width: 40px;
+  height: 40px;
+}
+
+.container-labels {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.container-labels label {
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+.acordion_main {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .acordion_main {
+    flex-direction: row;
+  }
+}
+.selec_componentes {
+  background-color: #474747;
+}
+
+.accordion-body {
+  background-color: #d1d1d1;
+}
+
+/* ocultar los radio */
+#amd, #intel, #ati, #nvidia {
+  display: none;
+}
+
+.amd, .intel, .ati, .nvidia {
+  display: none;
+}
+
+#amd:checked ~ .padre-cards .amd {
+  display: flex;
+}
+
+#intel:checked ~ .padre-cards .intel {
+  display: flex;
+}
+
+#ati:checked ~ .padre-cards .ati {
+  display: flex;
+}
+
+#nvidia:checked ~ .padre-cards .nvidia {
+  display: flex;
+}
+
+.container-labels {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.container-labels label {
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+.acordion_main {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .acordion_main {
+    flex-direction: row;
+  }
+}
+.selec_componentes {
+  background-color: #474747;
+}
+
+.accordion-body {
+  background-color: #d1d1d1;
+}
+
+/* ocultar los radio */
+#asus-gamer, #samsung-gamer, #lg-gamer, #gigabyte-gamer, #acer-led, #philips-led, #lg-led, #enova-tv, #samsung-tv {
+  display: none;
+}
+
+.asus-gamer, .samsung-gamer, .lg-gamer, .gigabyte-gamer, .acer-led, .philips-led, .lg-led, .enova-tv, .samsung-tv {
+  display: none;
+}
+
+#asus-gamer:checked ~ .padre-cards .asus-gamer {
+  display: flex;
+}
+
+#samsung-gamer:checked ~ .padre-cards .samsung-gamer {
+  display: flex;
+}
+
+#lg-gamer:checked ~ .padre-cards .lg-gamer {
+  display: flex;
+}
+
+#gigabyte-gamer:checked ~ .padre-cards .gigabyte-gamer {
+  display: flex;
+}
+
+#acer-led:checked ~ .padre-cards .acer-led {
+  display: flex;
+}
+
+#philips-led:checked ~ .padre-cards .philips-led {
+  display: flex;
+}
+
+#lg-led:checked ~ .padre-cards .lg-led {
+  display: flex;
+}
+
+#enova-tv:checked ~ .padre-cards .enova-tv {
+  display: flex;
+}
+
+#samsung-tv:checked ~ .padre-cards .samsung-tv {
+  display: flex;
+}
+
+.container-labels {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.container-labels label {
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+.acordion_main {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .acordion_main {
+    flex-direction: row;
+  }
+}
+.selec_componentes {
+  background-color: #474747;
+}
+
+.accordion-body {
+  background-color: #d1d1d1;
+}
+
+/* ocultar los radio */
+#asus-gamer, #samsung-gamer, #lg-gamer, #gigabyte-gamer, #acer-led, #philips-led, #lg-led, #enova-tv, #samsung-tv {
+  display: none;
+}
+
+.asus-gamer, .samsung-gamer, .lg-gamer, .gigabyte-gamer, .acer-led, .philips-led, .lg-led, .enova-tv, .samsung-tv {
+  display: none;
+}
+
+#asus-gamer:checked ~ .padre-cards .asus-gamer {
+  display: flex;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1100px) {
+  .nosotros {
+    flex-direction: row;
+  }
+}
+.historia {
+  text-align: left;
+  margin: 0;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .historia {
+    text-align: justify;
+  }
+}
+.container-map {
+  align-items: center;
+}
+
+.map {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .map {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

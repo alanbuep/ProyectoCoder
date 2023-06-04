@@ -1,0 +1,39 @@
+.nosotros{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 1100px)  {
+    .nosotros{
+        flex-direction: row;
+    }
+}
+
+.historia{
+    text-align: left;
+    margin: 0;
+    padding: 20px;
+}
+
+@media (min-width: $tablet)  {
+    .historia{
+        text-align: justify;
+    }
+}
+
+.container-map{
+    align-items: center;
+}
+
+.map{
+    @include medidas(300px,300px);
+    padding: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+@media (min-width: $tablet)  {
+    .map{
+        @include medidas(500px,500px);
+    }
+}

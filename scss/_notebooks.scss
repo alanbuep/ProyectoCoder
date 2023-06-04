@@ -1,0 +1,42 @@
+.container-labels{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+
+    label{
+    cursor: pointer;
+    padding: 8px 15px;
+    }
+}
+.acordion_main{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .acordion_main{
+        flex-direction: row;
+    }
+}
+
+.selec_componentes {
+    background-color: #474747;
+}
+
+.accordion-body{
+    background-color: #d1d1d1;
+}
+
+
+/* ocultar los radio */
+
+#asus-gamer, #samsung-gamer, #lg-gamer, #gigabyte-gamer, #acer-led, #philips-led, #lg-led, #enova-tv, #samsung-tv{
+    display: none;
+}
+.asus-gamer, .samsung-gamer, .lg-gamer, .gigabyte-gamer, .acer-led, .philips-led, .lg-led, .enova-tv, .samsung-tv{
+    display: none;
+}
+
+#asus-gamer:checked ~ .padre-cards .asus-gamer{
+    display: flex;
+}

@@ -1,0 +1,74 @@
+.container-labels{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+
+    label{
+    cursor: pointer;
+    padding: 8px 15px;
+    }
+}
+.acordion_main{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .acordion_main{
+        flex-direction: row;
+    }
+}
+
+.selec_componentes {
+    background-color: #474747;
+}
+
+.accordion-body{
+    background-color: #d1d1d1;
+}
+
+
+/* ocultar los radio */
+
+#asus-gamer, #samsung-gamer, #lg-gamer, #gigabyte-gamer, #acer-led, #philips-led, #lg-led, #enova-tv, #samsung-tv{
+    display: none;
+}
+.asus-gamer, .samsung-gamer, .lg-gamer, .gigabyte-gamer, .acer-led, .philips-led, .lg-led, .enova-tv, .samsung-tv{
+    display: none;
+}
+
+#asus-gamer:checked ~ .padre-cards .asus-gamer{
+    display: flex;
+}
+
+#samsung-gamer:checked ~ .padre-cards .samsung-gamer{
+    display: flex;
+}
+
+#lg-gamer:checked ~ .padre-cards .lg-gamer{
+    display: flex;
+}
+
+#gigabyte-gamer:checked ~ .padre-cards .gigabyte-gamer{
+    display: flex;
+}
+
+#acer-led:checked ~ .padre-cards .acer-led{
+    display: flex;
+}
+
+#philips-led:checked ~ .padre-cards .philips-led{
+    display: flex;
+}
+
+#lg-led:checked ~ .padre-cards .lg-led{
+    display: flex;
+}
+
+#enova-tv:checked ~ .padre-cards .enova-tv{
+    display: flex;
+}
+
+#samsung-tv:checked ~ .padre-cards .samsung-tv{
+    display: flex;
+}
