@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
-    <title>Perifericos-TG</title>
+    <title>TiendaGamer | Periféricos</title>
 </head>
 
 <body>
@@ -95,7 +95,154 @@
         </nav>
     </header>
 
-    <h2 class="text-center">Periféricos</h2>
+    <h2 class="text-center text-white">Periféricos</h2>
+
+    <main class="container-fluid">
+
+        <div>
+            <!-- Inputs -->
+            <input type="radio" name="seleccionado" id="mouse-gamer">
+            <input type="radio" name="seleccionado" id="mouse-inalambrico">
+            <input type="radio" name="seleccionado" id="teclado-gamer">
+            <input type="radio" name="seleccionado" id="teclado-inalambrico">
+            <input type="radio" name="seleccionado" id="silla-gamer">
+            <input type="radio" name="seleccionado" id="alfombra-gamer">
+
+            <!-- label de los inputs -->
+            <div class="container-labels selec_componentes">
+                
+                <div class="accordion accordion-flush acordion_main" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Mouses
+                        </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <label for="mouse-gamer">Mouse Gamer</label>
+                            </div>
+                            <div class="accordion-body">
+                                <label for="mouse-inalambrico">Mouse Inalámbrico</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Teclados
+                        </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <label for="teclado-gamer">Teclado Gamer</label>
+                            </div>
+                            <div class="accordion-body">
+                                <label for="teclado-inalambrico">Teclado Inalámbrico</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Varios
+                        </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <label for="silla-gamer">Sillas Gamer</label>
+                            </div>
+                            <div class="accordion-body">
+                                <label for="alfombra-gamer">Alfombra para Sillas Gamers</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid row gap-4 justify-content-center text-center padre-cards">
+                <!-- Mouses -->
+                <div class="card mouse-gamer" style="width: 18rem;">
+                    <img src="../img/mouse-logitech-g403-hero-gaming-910005631-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">MOUSE LOGITECH G403 HERO GAMING 910-005631</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$30.630,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card mouse-gamer" style="width: 18rem;">
+                    <img src="../img/mouse-gamer-razer-basilisk-v3-wired-ergonomic-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">MOUSE GAMER RAZER BASILISK V3 WIRED ERGONOMIC</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$33.004,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card mouse-inalambrico" style="width: 18rem;">
+                    <img src="../img/mouse-logitech-wireless-m170-black-blister-910004940-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">MOUSE LOGITECH WIRELESS M170 BLACK BLISTER 910-004940</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$7.040,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card mouse-inalambrico" style="width: 18rem;">
+                    <img src="../img/mouse-logitech-g305-lightspeed-wireless-black-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">MOUSE LOGITECH G305 LIGHTSPEED WIRELESS BLACK</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$21.400,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Teclados -->
+                <div class="card teclado-gamer" style="width: 18rem;">
+                    <img src="../img/teclado-logitech-g413-carbon-gamer-mecanico-920008300-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">TECLADO LOGITECH G413 CARBON GAMER MECANICO 920-008300</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$63.780,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card teclado-inalambrico" style="width: 18rem;">
+                    <img src="../img/teclado-wireless-logitech-mx-keys-retroiluminado-920009296-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">TECLADO WIRELESS LOGITECH MX KEYS RETROILUMINADO 920-009296</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$67.470,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Varios -->
+                <div class="card silla-gamer" style="width: 18rem;">
+                    <img src="../img/silla-gamer-gaming-chair-in7126-blackred-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">SILLA GAMER GAMING CHAIR IN7126 BLACK/RED</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$54.000,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card alfombra-gamer" style="width: 18rem;">
+                    <img src="../img/alfombra-para-silla-gamer-gxt-715-trust-gxt715-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">ALFOMBRA PARA SILLA GAMER GXT 715 TRUST GXT715</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$25.047,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
 
     <footer>
         <section class="logo_bien_header">

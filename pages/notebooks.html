@@ -103,6 +103,12 @@
             <input type="radio" name="seleccionado" id="acer-gamer">
             <input type="radio" name="seleccionado" id="gigabyte-gamer">
             <input type="radio" name="seleccionado" id="msi-gamer">
+            <input type="radio" name="seleccionado" id="asus-intel">
+            <input type="radio" name="seleccionado" id="lenovo-intel">
+            <input type="radio" name="seleccionado" id="dell-intel">
+            <input type="radio" name="seleccionado" id="asus-amd">
+            <input type="radio" name="seleccionado" id="lenovo-amd">
+            <input type="radio" name="seleccionado" id="hp-amd">
 
             <!-- label de los inputs -->
             <div class="container-labels selec_componentes">
@@ -125,7 +131,7 @@
                                 <label for="gigabyte-gamer">Gigabyte</label>
                             </div>
                             <div class="accordion-body">
-                                <label for="gigabyte-gamer">MSI</label>
+                                <label for="msi-gamer">MSI</label>
                             </div>
                         </div>
                     </div>
@@ -137,13 +143,13 @@
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <label for="acer-led">Acer</label>
+                                <label for="asus-intel">Asus</label>
                             </div>
                             <div class="accordion-body">
-                                <label for="lg-led">LG</label>
+                                <label for="lenovo-intel">Lenovo</label>
                             </div>
                             <div class="accordion-body">
-                                <label for="philips-led">Philips</label>
+                                <label for="dell-intel">Dell</label>
                             </div>
                         </div>
                     </div>
@@ -155,10 +161,13 @@
                         </h2>
                         <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <label for="enova-tv">Enova</label>
+                                <label for="asus-amd">Asus</label>
                             </div>
                             <div class="accordion-body">
-                                <label for="samsung-tv">Samsung</label>
+                                <label for="lenovo-amd">Lenovo</label>
+                            </div>
+                            <div class="accordion-body">
+                                <label for="hp-amd">HP</label>
                             </div>
                         </div>
                     </div>
@@ -167,32 +176,97 @@
 
             <div class="container-fluid row gap-4 justify-content-center text-center padre-cards">
                 <!-- Notebooks intel -->
-                <div class="card asus-gamer" style="width: 18rem;">
-                    <img src="../img/monitor-22-asus-vp228he-1920x1080-fhd-1ms-parlantes-0.jpg" class="card-img-top" alt="...">
+                <div class="card asus-intel" style="width: 18rem;">
+                    <img src="../img/notebook-asus-156-x515ea-i71165g7-8gb-512gb-fhd-free-0.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">MONITOR 22" ASUS VP228HE 1920X1080 FHD 1MS PARLANTES</p>
+                        <p class="card-text">NOTEBOOK ASUS 15.6" X515EA I7-1165G7 8GB 512GB FHD FREE</p>
                         <p class="card-text">Precio efectivo o transferencia:</p>
-                        <p class="text-primary">$49.890,00</p>
+                        <p class="text-primary">$399.890,00</p>
                         <button>Añadir al carrito</button>
                     </div>
+                </div>
+                <div class="card lenovo-intel" style="width: 18rem;">
+                    <img src="../img/notebook-lenovo-156-ideapad-3-15itl6-i71165g7-4gb-256gb-fhd-w11-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">NOTEBOOK LENOVO 15.6" IDEAPAD 3 15ITL6 I7-1165G7 4GB 256GB FHD W11</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$543.703,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card dell-intel" style="width: 18rem;">
+                    <img src="../img/notebook-dell-156-inspiron-3511-i71165g7-16gb-512gb-w11h-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">NOTEBOOK DELL 15.6" INSPIRON 3511 I7-1165G7 16GB 512GB W11H</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$575.070,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
 
                 <!-- Notebooks amd -->
-                <div class="card philips-led" style="width: 18rem;">
-                    <img src="../img/monitor-19-philips-193v5lhsb255-led-hd-60hz-vga-hdmi-0.jpg" class="card-img-top" alt="...">
+                <div class="card asus-amd" style="width: 18rem;">
+                    <img src="../img/notebook-asus-156-ryzen-3-r3-3250u-8gb-256gb-w11h-0.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">MONITOR 19" PHILIPS 193V5LHSB2/55 LED HD 60HZ VGA HDMI</p>
+                        <p class="card-text">NOTEBOOK ASUS 15.6" RYZEN 3 R3 3250U 8GB 256GB W11H</p>
                         <p class="card-text">Precio efectivo o transferencia:</p>
-                        <p class="text-primary">$38.500,00</p>
+                        <p class="text-primary">$302.545,00</p>
                         <button>Añadir al carrito</button>
                     </div>
+                </div>
+                <div class="card lenovo-amd" style="width: 18rem;">
+                    <img src="../img/cloudbook-lenovo-14-ideapad-1-14ada05-amd-3020e-4gb-64gb-w11h-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">CLOUDBOOK LENOVO 14" IDEAPAD 1 14ADA05 AMD 3020E 4GB 64GB W11H</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$196.806,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card hp-amd" style="width: 18rem;">
+                    <img src="../img/notebook-hp-14-245-g8-ryzen-3-r3-3250u-4gb-1tb-free-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">NOTEBOOK HP 14" 245 G8 RYZEN 3 R3 3250U 4GB 1TB FREE</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$255.020,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
 
                 <!-- Notebooks gamers -->
-                <div class="card enova-tv" style="width: 18rem;">
-                    <img src="../img/monitor-tv-24-enova-led-hd-frameless-0.jpg" class="card-img-top" alt="...">
+                <div class="card asus-gamer" style="width: 18rem;">
+                    <img src="../img/notebook-asus-156-tuf-ryzen-5-4600h-16gb-512gb-gtx-1650-free-0.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">MONITOR TV 24" ENOVA LED HD FRAMELESS</p>
+                        <p class="card-text">NOTEBOOK ASUS 15.6" TUF RYZEN 5 4600H 16GB 512GB GTX 1650 FREE</p>
                         <p class="card-text">Precio efectivo o transferencia:</p>
-                        <p class="text-primary">$57.220,00</p>
+                        <p class="text-primary">$622.735,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card acer-gamer" style="width: 18rem;">
+                    <img src="../img/notebook-acer-156-nitro-5-i511400h-8gb-256gb-gtx-1650-w11h-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">NOTEBOOK ACER 15.6" NITRO 5 I5-11400H 8GB 256GB GTX 1650 W11H</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$645.750,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card gigabyte-gamer" style="width: 18rem;">
+                    <img src="../img/notebook-gigabyte-156-g5-ke-i512500h-16gb-512gb-rtx3060-w11h-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">NOTEBOOK GIGABYTE 15.6" G5 KE I5-12500H 16GB 512GB RTX3060 W11H</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$753.020,00</p>
+                        <button>Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="card msi-gamer" style="width: 18rem;">
+                    <img src="../img/notebook-msi-14-prestige-14-evo-i51135g7-16gb-1tb-w10h-0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">NOTEBOOK MSI 14" PRESTIGE 14 EVO I5-1135G7 16GB 1TB W10H</p>
+                        <p class="card-text">Precio efectivo o transferencia:</p>
+                        <p class="text-primary">$795.080,00</p>
                         <button>Añadir al carrito</button>
                     </div>
                 </div>

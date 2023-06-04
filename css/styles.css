@@ -35,7 +35,7 @@ body {
 footer {
   background: #01FFE1;
   background: linear-gradient(270deg, #01FFE1, #1501FF);
-  margin-top: 20px;
+  margin-top: 50px;
   padding: 0;
 }
 
@@ -288,15 +288,117 @@ footer {
 }
 
 /* ocultar los radio */
-#asus-gamer, #samsung-gamer, #lg-gamer, #gigabyte-gamer, #acer-led, #philips-led, #lg-led, #enova-tv, #samsung-tv {
+#asus-gamer, #acer-gamer, #gigabyte-gamer, #msi-gamer, #asus-intel, #lenovo-intel, #dell-intel, #asus-amd, #lenovo-amd, #hp-amd {
   display: none;
 }
 
-.asus-gamer, .samsung-gamer, .lg-gamer, .gigabyte-gamer, .acer-led, .philips-led, .lg-led, .enova-tv, .samsung-tv {
+.asus-gamer, .acer-gamer, .gigabyte-gamer, .msi-gamer, .asus-intel, .lenovo-intel, .dell-intel, .asus-amd, .lenovo-amd, .hp-amd {
   display: none;
 }
 
 #asus-gamer:checked ~ .padre-cards .asus-gamer {
+  display: flex;
+}
+
+#acer-gamer:checked ~ .padre-cards .acer-gamer {
+  display: flex;
+}
+
+#gigabyte-gamer:checked ~ .padre-cards .gigabyte-gamer {
+  display: flex;
+}
+
+#msi-gamer:checked ~ .padre-cards .msi-gamer {
+  display: flex;
+}
+
+#asus-intel:checked ~ .padre-cards .asus-intel {
+  display: flex;
+}
+
+#lenovo-intel:checked ~ .padre-cards .lenovo-intel {
+  display: flex;
+}
+
+#dell-intel:checked ~ .padre-cards .dell-intel {
+  display: flex;
+}
+
+#asus-amd:checked ~ .padre-cards .asus-amd {
+  display: flex;
+}
+
+#lenovo-amd:checked ~ .padre-cards .lenovo-amd {
+  display: flex;
+}
+
+#hp-amd:checked ~ .padre-cards .hp-amd {
+  display: flex;
+}
+
+.container-labels {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.container-labels label {
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+.acordion_main {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .acordion_main {
+    flex-direction: row;
+  }
+}
+.selec_componentes {
+  background-color: #474747;
+}
+
+.accordion-body {
+  background-color: #d1d1d1;
+}
+
+/* ocultar los radio */
+#mouse-gamer, #mouse-inalambrico, #teclado-gamer, #teclado-inalambrico, #silla-gamer, #alfombra-gamer {
+  display: none;
+}
+
+.mouse-gamer, .mouse-inalambrico, .teclado-gamer, .teclado-inalambrico, .silla-gamer, .alfombra-gamer {
+  display: none;
+}
+
+#mouse-gamer:checked ~ .padre-cards .mouse-gamer {
+  display: flex;
+}
+
+#mouse-inalambrico:checked ~ .padre-cards .mouse-inalambrico {
+  display: flex;
+}
+
+#teclado-gamer:checked ~ .padre-cards .teclado-gamer {
+  display: flex;
+}
+
+#teclado-inalambrico:checked ~ .padre-cards .teclado-inalambrico {
+  display: flex;
+}
+
+#silla-gamer:checked ~ .padre-cards .silla-gamer {
+  display: flex;
+}
+
+#alfombra-gamer:checked ~ .padre-cards .alfombra-gamer {
+  display: flex;
+}
+
+#dell-intel:checked ~ .padre-cards .dell-intel {
   display: flex;
 }
 

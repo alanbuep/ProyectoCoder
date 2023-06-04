@@ -1,0 +1,66 @@
+.container-labels{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+
+    label{
+    cursor: pointer;
+    padding: 8px 15px;
+    }
+}
+.acordion_main{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .acordion_main{
+        flex-direction: row;
+    }
+}
+
+.selec_componentes {
+    background-color: #474747;
+}
+
+.accordion-body{
+    background-color: #d1d1d1;
+}
+
+
+/* ocultar los radio */
+
+#mouse-gamer, #mouse-inalambrico, #teclado-gamer, #teclado-inalambrico, #silla-gamer, #alfombra-gamer{
+    display: none;
+}
+.mouse-gamer, .mouse-inalambrico, .teclado-gamer, .teclado-inalambrico, .silla-gamer, .alfombra-gamer{
+    display: none;
+}
+
+#mouse-gamer:checked ~ .padre-cards .mouse-gamer{
+    display: flex;
+}
+
+#mouse-inalambrico:checked ~ .padre-cards .mouse-inalambrico{
+    display: flex;
+}
+
+#teclado-gamer:checked ~ .padre-cards .teclado-gamer{
+    display: flex;
+}
+
+#teclado-inalambrico:checked ~ .padre-cards .teclado-inalambrico{
+    display: flex;
+}
+
+#silla-gamer:checked ~ .padre-cards .silla-gamer{
+    display: flex;
+}
+
+#alfombra-gamer:checked ~ .padre-cards .alfombra-gamer{
+    display: flex;
+}
+
+#dell-intel:checked ~ .padre-cards .dell-intel{
+    display: flex;
+}
