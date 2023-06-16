@@ -93,15 +93,16 @@ footer{
     }
 }
 
-.card{
-    transition: transform 1s;
-}
+@media (min-width: 768px) {
+    .card{
+        transition: transform 1s;
+    }
 
-.card:hover{
-    transform: scale(1.15);
-    z-index: 1;
+    .card:hover{
+        transform: scale(1.15);
+        z-index: 1;
+    }
 }
-
 .contacto{
     position: fixed;
     bottom: 0;
