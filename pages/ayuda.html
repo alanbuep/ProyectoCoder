@@ -88,6 +88,9 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="nosotros.html">Nosotros</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="ayuda.html">Ayuda</a>
+                </li>
                 </ul>
                 <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -104,21 +107,55 @@
         
         <div class="container-fluid">
             <h3 class="text-left text-white lh-lg"> Preguntas frecuentes</h3>
-            
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        ¿Cuáles son las formas de pago?
+                    </button>
+                    </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Contamos con dos formas de pago: a través de depósito/transferencia bancaria, con la cual obtenés el precio especial, o bien, a través de los métodos Pago Gamer (Visa o MasterCard) o MercadoPago (Tarjetas online, PagoFácil y RapiPago) con los cuales podés abonar en cuotas, al precio de lista.
+                    </div>
+                </div>
+                </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        ¿Cómo gestiono el envío de mi pedido?
+                    </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">En primer lugar, para conocer el costo del envío, una vez al agregues al carrito tu compra, solo debes colocar tu código postal en el recuadro correspondiente, seleccionar la mensajería de tu preferencia y elegir si deseas el retiro en alguna sucursal o la entrega a domicilio. Actualmente realizamos envíos a todo el país través de Oca y Andreani; y si te encontrás en CABA o alrededores, podrás seleccionar el servicio de Mensajería Privada que es exclusivo de Tienda Gamer. Tené en cuenta que, para calcular el costo del envío, se toman en consideración tanto las dimensiones y peso del paquete como la distancia de la localidad de entrega. 
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Servicio postventa y garantías
+                    </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Para realizar consultas/reclamos relacionadas con la garantía o devolución de alguna de tus compras, contamos con ayuda a través de Whatsapp. Donde debes exponer tu caso, seleccionando el motivo de "Postventa" que se adapte a tu requerimiento y uno de nuestros representantes te ofrecerá la información correspondiente sobre cómo proceder. 
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container-fluid">
-            <h3 class="text-left text-white lh-lg"> Envianos una sugerencia</h3>
+            <h3 class="text-left text-white lh-lg"> Si necesita ayuda contactese con nosotros</h3>
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label text-white">Email address</label>
+                <label for="exampleFormControlInput1" class="form-label text-white">Ingrese su Dirección de Email</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label text-white">¿Cómo podemos mejorar?</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-        </div>
-        <div class="container-fluid">
-            
+            <div>
+                <button class="btn btn-outline-success" type="submit">Enviar</button>
+            </div>
         </div>
 
     </section>
@@ -138,7 +175,12 @@
         </section>
 
         <section class="text-center">
-            <p>Derechos de autor © 2023 Tienda Gamer</p>
+            <div class="container gap-4 justify-content-center text-white">
+                <a href="../pages/ayuda.html" class="nav-link active">Sugerencias o comentarios, contactenos</a>
+            </div>
+            <div>
+                <p>Derechos de autor © 2023 Tienda Gamer</p>
+            </div>
         </section>
     </footer>
 
